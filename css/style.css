@@ -1,0 +1,16 @@
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rebeccapurple;
+  font-size: 300%;
+  text-align: center;
+}
+
+.ahmad {
+  line-height: 50%;
+}
+.ahmad1 {
+  line-height: 200%;
+}
+.ahmad2 {
+  font-variant: small-caps;
+}
