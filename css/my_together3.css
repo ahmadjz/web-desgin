@@ -32,6 +32,21 @@ nav a {
   padding: 0.5%;
   margin: 1%;
 }
+
+nav a:visited {
+  color: green;
+}
+
+nav a:hover {
+  color: yellow;
+  background-color: black;
+}
+
+nav a:focus {
+  background-color: aqua;
+  color: red;
+}
+
 .half {
   width: 45%;
   display: block;
