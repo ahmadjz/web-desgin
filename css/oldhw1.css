@@ -1,5 +1,6 @@
 header {
-  background: url(../images/flywheel.jpg);
+  background-color: rgb(182, 179, 179);
+  height: 500px;
 }
 h1 {
   color: white;
