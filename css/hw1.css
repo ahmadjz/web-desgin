@@ -1,3 +1,7 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h1,
 h2 {
   text-transform: uppercase;
@@ -20,6 +24,7 @@ h1 {
 h2 {
   color: rgb(50, 50, 161);
 }
+
 nav {
   display: block;
   text-align: center;
@@ -57,4 +62,98 @@ section h2 {
 aside img {
   border: solid 4px #000000;
   width: 100%;
+}
+
+table {
+  width: 80%;
+  margin-left: 10%;
+  color: #06425c;
+  border-spacing: 0;
+  -webkit-border-radius: 25px 25px 0 0;
+  border-radius: 0 0 25px 25px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+/*Alternate colors between even and odd weeks*/
+tr:nth-child(odd) {
+  background: #e4f5d3;
+}
+tr:nth-child(odd):hover {
+  background: #cff0ae;
+}
+tr:nth-child(even) {
+  background: #cdbb79;
+}
+tr:nth-child(even):hover {
+  background: #cdb765;
+}
+
+table th,
+table td {
+  margin: 2px;
+  padding-bottom: 2px;
+}
+
+/*Format the table headings*/
+table th {
+  font-size: 25px;
+  font-weight: 800;
+  width: 75px;
+  height: 75px;
+  border-bottom: 5px solid white;
+  text-align: center;
+  background: #ffffff;
+  background: rgb(141, 155, 67);
+  background: radial-gradient(
+    circle,
+    rgba(141, 155, 67, 1) 0%,
+    rgba(146, 164, 82, 1) 100%
+  );
+  color: white;
+}
+
+table td {
+  width: 75px;
+  height: 75px;
+  border-radius: 2px;
+  vertical-align: middle;
+  text-shadow: 4px 2px 8px #898c82;
+  padding: 0px 15px;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 20;
+}
+
+th:first-child {
+  -webkit-border-radius: 25px 0 0 0;
+  border-radius: 25px 0 0 0;
+}
+
+th:last-child {
+  -webkit-border-radius: 0 25px 0 0;
+  border-radius: 0 25px 0 0;
+}
+
+tr:last-child {
+  -webkit-border-radius: 25px 25px 0 0;
+  border-radius: 0 0 25px 25px;
+}
+tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 25px;
+  border-radius: 0 0 0 25px;
+}
+
+tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 25px 0;
+  border-radius: 0 0 25px 0;
+}
+
+table td:nth-child(2),
+table td:nth-child(3) {
+  text-align: center;
 }
