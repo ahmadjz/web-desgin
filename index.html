@@ -4,10 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script>
-      alert(`${17 % 5}`);
-    </script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Hi</title>
   </head>
-  <body></body>
+  <body onload="message('loaaaad')" onresize="message('resiiiize')">
+    <div>
+      <p onclick="message('cliiick')" id="myText">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
+        modi qui, facere earum alias dicta odio ea necessitatibus repudiandae
+        laudantium facilis voluptatum laborum ipsam perspiciatis repellat magnam
+        accusantium rem aut?
+      </p>
+      <br />
+      <button onclick="hideText()">Hide text</button
+      ><button onclick="showText()">show text</button>
+      <br />
+      <p id="myoutput"></p>
+    </div>
+  </body>
 </html>
